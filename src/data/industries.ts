@@ -15,7 +15,7 @@ export const industries: Industry[] = [
     slug: "healthcare",
     name: "Healthcare",
     shortDescription:
-      "Digital health solutions built for India's regulatory landscape — from telemedicine to hospital management systems.",
+      "India's USD 14.5 billion digital health market is growing at 25% CAGR. We build ABDM-compliant solutions — from telemedicine to hospital management systems.",
     icon: "HeartPulse",
     capabilities: [
       "Telemedicine Platforms",
@@ -27,12 +27,12 @@ export const industries: Industry[] = [
       {
         title: "Fragmented Patient Records",
         description:
-          "Patient data scattered across disconnected systems makes diagnosis harder and increases clinical errors. ABDM compliance adds another layer of complexity for Indian providers.",
+          "Patient data scattered across disconnected systems makes diagnosis harder and increases clinical errors. With over 84 crore ABHA IDs created under ABDM, integrating health records across providers is now a regulatory imperative.",
       },
       {
         title: "Last-Mile Healthcare Access",
         description:
-          "Over 600 million Indians live in areas underserved by physical healthcare facilities. Reaching these patients digitally requires low-bandwidth, multilingual solutions that work on entry-level smartphones.",
+          "Over 400 million Indians have used digital or teleconsultation platforms, yet rural access remains uneven. Reaching underserved patients requires low-bandwidth, multilingual solutions that work on entry-level smartphones.",
       },
       {
         title: "Regulatory Complexity",
@@ -54,7 +54,7 @@ export const industries: Industry[] = [
       {
         title: "Telemedicine Platforms",
         description:
-          "Video consultation, e-prescription, and digital diagnostic workflows optimized for low-bandwidth conditions across Tier 2 and Tier 3 India.",
+          "Video consultation, e-prescription, and digital diagnostic workflows optimized for low-bandwidth conditions. India's telemedicine market is growing at 23% CAGR, projected to reach USD 12.6 billion by 2031.",
       },
       {
         title: "Patient Engagement Apps",
@@ -83,7 +83,7 @@ export const industries: Industry[] = [
     slug: "fintech",
     name: "FinTech",
     shortDescription:
-      "Secure, compliant financial technology for lending, payments, wealth management, and beyond.",
+      "UPI processed 228 billion transactions in 2025. We build secure, RBI-compliant fintech for lending, payments, and wealth management.",
     icon: "Landmark",
     capabilities: [
       "Digital Lending Platforms",
@@ -103,9 +103,9 @@ export const industries: Industry[] = [
           "UPI fraud, account takeover, and synthetic identity fraud are growing threats that erode user trust and force expensive remediation.",
       },
       {
-        title: "Credit Access for the Unbanked",
+        title: "Credit Access for the Underserved",
         description:
-          "Over 190 million Indians remain unbanked or underbanked. Building credit models for thin-file customers requires alternative data and ML-driven approaches.",
+          "UPI's 500 million+ users generate verifiable payment histories, enabling banks and fintechs to lend at broader risk ranges. Building credit models for thin-file customers requires alternative data and ML-driven approaches.",
       },
     ],
     solutions: [
@@ -117,7 +117,7 @@ export const industries: Industry[] = [
       {
         title: "UPI & Payment Integration",
         description:
-          "Payment gateway integration, UPI stack implementation, and reconciliation automation for merchants and platforms.",
+          "Payment gateway integration and UPI stack implementation for the world's largest real-time payments network — 21.6 billion transactions in December 2025 alone. PhonePe, Google Pay, and Paytm integrations included.",
       },
       {
         title: "KYC & AML Automation",
@@ -146,7 +146,7 @@ export const industries: Industry[] = [
     slug: "ecommerce",
     name: "E-commerce",
     shortDescription:
-      "High-conversion commerce platforms — from D2C storefronts to large-scale multi-vendor marketplaces.",
+      "India's e-commerce market is projected to hit USD 163 billion by 2026. We build high-conversion D2C storefronts and multi-vendor marketplaces.",
     icon: "ShoppingCart",
     capabilities: [
       "Multi-Vendor Marketplaces",
@@ -158,17 +158,17 @@ export const industries: Industry[] = [
       {
         title: "Fierce Competition from Aggregators",
         description:
-          "Competing against Flipkart, Meesho, and Amazon requires differentiation through brand experience, niche assortment, and faster delivery — not price wars.",
+          "Competing against Flipkart, Meesho, and Amazon requires differentiation through brand experience and niche assortment. The D2C market alone is crossing USD 100 billion — brands need owned channels to capture that growth.",
       },
       {
-        title: "Cart Abandonment",
+        title: "Quick Commerce Disruption",
         description:
-          "Indian e-commerce platforms average 70%+ cart abandonment, often driven by trust issues at checkout, COD dependency, and slow load times.",
+          "Quick commerce is surging at 70-80% CAGR with Blinkit, Zepto, and Swiggy Instamart expanding into 1,200+ micro-fulfilment sites. Brands must adapt to 10-minute delivery expectations or risk losing impulse purchases.",
       },
       {
-        title: "Logistics Complexity",
+        title: "Cart Abandonment & Logistics",
         description:
-          "Managing multi-carrier fulfillment, return logistics, and hyperlocal delivery across India's diverse geographies is operationally complex and expensive.",
+          "Indian e-commerce platforms average 70%+ cart abandonment, driven by trust issues at checkout and COD dependency. Managing multi-carrier fulfilment across India's diverse geographies remains operationally complex.",
       },
     ],
     solutions: [
@@ -209,7 +209,7 @@ export const industries: Industry[] = [
     slug: "education",
     name: "Education",
     shortDescription:
-      "EdTech platforms that reach students in metros and beyond — engaging, scalable, and accessible.",
+      "India's EdTech market is valued at USD 3.6 billion in 2025, growing at 28% CAGR. We build platforms that reach students in metros and beyond.",
     icon: "GraduationCap",
     capabilities: [
       "Learning Management Systems",
@@ -221,7 +221,7 @@ export const industries: Industry[] = [
       {
         title: "Engagement and Completion Rates",
         description:
-          "Online courses suffer from low completion rates — often under 10% — driven by passive content formats and lack of accountability mechanisms.",
+          "Over 70% of students prefer online courses, yet completion rates remain under 10%. AI-adaptive content that dynamically adjusts to student performance is becoming the standard for engagement.",
       },
       {
         title: "Reaching Underserved Students",
@@ -272,7 +272,7 @@ export const industries: Industry[] = [
     slug: "logistics",
     name: "Logistics",
     shortDescription:
-      "Tech-driven logistics platforms that reduce delivery costs, improve visibility, and delight customers.",
+      "India's warehousing demand hit 26.5 million sq ft in 9 months of 2025, up 11% YoY. We build tech-driven logistics platforms that cut costs and improve visibility.",
     icon: "Truck",
     capabilities: [
       "Fleet Management",
@@ -335,7 +335,7 @@ export const industries: Industry[] = [
     slug: "real-estate",
     name: "Real Estate",
     shortDescription:
-      "PropTech platforms that simplify property discovery, transactions, and portfolio management.",
+      "India's PropTech market is projected to reach USD 14 billion by 2035, with institutional investments crossing USD 10 billion. We build platforms that simplify property discovery and transactions.",
     icon: "Building2",
     capabilities: [
       "Property Listing Platforms",
@@ -398,7 +398,7 @@ export const industries: Industry[] = [
     slug: "food-beverage",
     name: "Food & Beverage",
     shortDescription:
-      "End-to-end tech for restaurants, cloud kitchens, and food brands — from ordering to operations.",
+      "Over 20,000 cloud kitchens operate across urban India, expected to double by 2026. We build end-to-end tech for restaurants and food brands.",
     icon: "UtensilsCrossed",
     capabilities: [
       "Online Ordering Platforms",
@@ -410,7 +410,7 @@ export const industries: Industry[] = [
       {
         title: "High Aggregator Commission Dependency",
         description:
-          "Zomato and Swiggy commissions of 20-30% gut restaurant margins. Brands need owned ordering channels to retain profitability on digital orders.",
+          "Zomato and Swiggy commissions of 20-30% gut restaurant margins. ONDC is disrupting this duopoly — platforms like WAAYU now offer zero-commission delivery for 3,000+ restaurants. Brands need owned ordering channels.",
       },
       {
         title: "Kitchen Efficiency and Waste",
@@ -461,7 +461,7 @@ export const industries: Industry[] = [
     slug: "travel-hospitality",
     name: "Travel & Hospitality",
     shortDescription:
-      "Seamless booking experiences and smart operations for hotels, OTAs, and travel businesses.",
+      "India's hospitality market is surging toward USD 799 billion by 2033. We build seamless booking experiences and smart operations for hotels and travel businesses.",
     icon: "Plane",
     capabilities: [
       "Booking Engine",
@@ -524,7 +524,7 @@ export const industries: Industry[] = [
     slug: "entertainment-media",
     name: "Entertainment & Media",
     shortDescription:
-      "Scalable streaming, publishing, and fan engagement platforms for digital-first media brands.",
+      "India's OTT market is valued at USD 5.4 billion in 2025, projected to reach 65 million households by 2026. We build scalable streaming and publishing platforms.",
     icon: "Tv",
     capabilities: [
       "Video Streaming Platforms",
@@ -536,12 +536,12 @@ export const industries: Industry[] = [
       {
         title: "Content Delivery at Scale",
         description:
-          "Serving high-quality video to millions of concurrent viewers across India's heterogeneous network conditions requires sophisticated adaptive streaming and CDN strategies.",
+          "With OTT projected to expand from 43 million to 65 million households by 2026, serving high-quality video across India's heterogeneous network conditions requires sophisticated adaptive streaming and CDN strategies.",
       },
       {
         title: "Monetisation Beyond Subscriptions",
         description:
-          "Pure subscription models face high churn in price-sensitive markets. Platforms need flexible hybrid monetisation — SVOD, AVOD, TVOD, and bundling — to maximise LTV.",
+          "Subscription fatigue is real — the average Indian household now has 2 OTT subscriptions. Platforms need flexible hybrid monetisation — SVOD, AVOD, TVOD, and bundling — to maximise LTV in a price-sensitive market.",
       },
       {
         title: "Content Piracy",
@@ -650,7 +650,7 @@ export const industries: Industry[] = [
     slug: "agritech",
     name: "AgriTech",
     shortDescription:
-      "Technology that empowers Indian farmers and agricultural investors with data, access, and efficiency.",
+      "India's agritech sector is expected to reach USD 24 billion by 2026, with 1,300+ startups and over USD 1 billion raised in early 2025 alone.",
     icon: "Sprout",
     capabilities: [
       "Farm Management Systems",
@@ -687,9 +687,9 @@ export const industries: Industry[] = [
           "Fractional investment platforms enabling retail investors to participate in agricultural projects with transparent returns and portfolio tracking.",
       },
       {
-        title: "Crop Advisory App",
+        title: "AI-Powered Crop Advisory",
         description:
-          "AI-driven crop advisory delivering personalised recommendations on sowing, irrigation, pest management, and harvest timing via SMS and app.",
+          "AI-led agritech is growing at 44% CAGR — nearly double the broader market. We build advisory apps delivering personalised recommendations on sowing, irrigation, pest management, and harvest timing.",
       },
       {
         title: "Farm Management System",
@@ -713,7 +713,7 @@ export const industries: Industry[] = [
     slug: "blockchain-web3",
     name: "Blockchain & Web3",
     shortDescription:
-      "Enterprise blockchain, NFT, and Web3 solutions built for real use cases, not speculation.",
+      "India retained its position as the world's leading blockchain adoption market in 2025 with USD 338 billion in on-chain value. We build enterprise Web3 for real use cases.",
     icon: "Link",
     capabilities: [
       "Smart Contract Development",
@@ -728,9 +728,9 @@ export const industries: Industry[] = [
           "Credential fraud, counterfeit goods, and opaque supply chains are problems that blockchain's immutability is genuinely well-suited to solve — when implemented correctly.",
       },
       {
-        title: "Regulatory Uncertainty in India",
+        title: "Regulatory Complexity",
         description:
-          "India's evolving stance on crypto assets creates compliance complexity for Web3 businesses. Navigating VDA taxation and RBI guidelines requires legal and technical alignment.",
+          "A flat 30% tax on VDA gains, expanded VDA definitions from April 2026, and transaction-level reporting obligations create compliance complexity. VASP registration with FIU-IND is now mandatory.",
       },
       {
         title: "User Adoption Barriers",

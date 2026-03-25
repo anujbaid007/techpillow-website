@@ -46,12 +46,13 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const industry = industries.find((i) => i.slug === params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const industry = industries.find((i) => i.slug === slug);
   if (!industry) return {};
 
   return {
@@ -60,12 +61,13 @@ export function generateMetadata({
   };
 }
 
-export default function IndustryPage({
+export default async function IndustryPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const industry = industries.find((i) => i.slug === params.slug);
+  const { slug } = await params;
+  const industry = industries.find((i) => i.slug === slug);
   if (!industry) notFound();
 
   const Icon = iconMap[industry.icon];
@@ -94,7 +96,7 @@ export default function IndustryPage({
               <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight">
                 {industry.name}
               </h1>
-              <p className="mt-4 text-lg sm:text-xl text-muted-foreground">
+              <p className="mt-6 text-lg text-muted-foreground">
                 {industry.shortDescription}
               </p>
               <Link
@@ -120,7 +122,7 @@ export default function IndustryPage({
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
             {industry.capabilities.map((cap, index) => (
               <ScrollReveal key={cap} delay={index * 0.06}>
-                <div className="border rounded-xl p-4 bg-white text-center">
+                <div className="border rounded-2xl p-4 bg-white text-center">
                   <span className="text-sm font-medium">{cap}</span>
                 </div>
               </ScrollReveal>

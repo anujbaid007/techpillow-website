@@ -3,118 +3,85 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { ShaderBackground } from "@/components/ui/shader-background";
+import { TechGlobe } from "@/components/ui/tech-globe";
 
 const trustBadges = [
-  "Top Rated Agency",
-  "Trusted Partner",
-  "Certified Team",
-  "Award Winning",
-  "Top Rated Agency",
-  "Trusted Partner",
-  "Certified Team",
-  "Award Winning",
+  { text: "Top Rated Agency", icon: "star" },
+  { text: "Trusted Partner", icon: "handshake" },
+  { text: "Certified Team", icon: "badge" },
+  { text: "Award Winning", icon: "trophy" },
+  { text: "On-Time Delivery", icon: "clock" },
+  { text: "24/7 Support", icon: "headset" },
+  { text: "Agile Process", icon: "bolt" },
+  { text: "NDA Protected", icon: "shield" },
+  { text: "Scalable Solutions", icon: "rocket" },
+  { text: "Transparent Pricing", icon: "check" },
 ];
 
-const techIcons = [
-  {
-    label: "React",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <circle cx="20" cy="20" r="3.5" fill="#61DAFB" />
-        <ellipse cx="20" cy="20" rx="16" ry="6" stroke="#61DAFB" strokeWidth="1.5" fill="none" />
-        <ellipse cx="20" cy="20" rx="16" ry="6" stroke="#61DAFB" strokeWidth="1.5" fill="none" transform="rotate(60 20 20)" />
-        <ellipse cx="20" cy="20" rx="16" ry="6" stroke="#61DAFB" strokeWidth="1.5" fill="none" transform="rotate(120 20 20)" />
-      </svg>
-    ),
-  },
-  {
-    label: "Node.js",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <path d="M20 4L34 12V28L20 36L6 28V12L20 4Z" fill="#339933" opacity="0.15" />
-        <path d="M20 4L34 12V28L20 36L6 28V12L20 4Z" stroke="#339933" strokeWidth="1.5" />
-        <text x="20" y="24" textAnchor="middle" fill="#339933" fontSize="10" fontWeight="bold">N</text>
-      </svg>
-    ),
-  },
-  {
-    label: "Python",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <path d="M20 6C14 6 12 9 12 12V16H20V17H9C7 17 5 19 5 22C5 25 7 27 9 27H12V23C12 21 14 19 16 19H24C26 19 28 17 28 15V12C28 9 26 6 20 6Z" fill="#3776AB" opacity="0.8" />
-        <path d="M20 34C26 34 28 31 28 28V24H20V23H31C33 23 35 21 35 18C35 15 33 13 31 13H28V17C28 19 26 21 24 21H16C14 21 12 23 12 25V28C12 31 14 34 20 34Z" fill="#FFD43B" opacity="0.8" />
-        <circle cx="17" cy="11" r="1.5" fill="white" />
-        <circle cx="23" cy="29" r="1.5" fill="white" />
-      </svg>
-    ),
-  },
-  {
-    label: "Flutter",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <path d="M8 20L20 8H33L21 20L33 32H20L8 20Z" fill="#02569B" opacity="0.2" stroke="#02569B" strokeWidth="1.5" />
-        <path d="M14 26L20 20L26 26H14Z" fill="#02569B" opacity="0.6" />
-      </svg>
-    ),
-  },
-  {
-    label: "AWS",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <path d="M7 22C7 19 9 17 11 17.5C11.5 14 14 12 17 12.5C18 10 20 9 22 9.5C24.5 8 28 10 28 14C30 14 33 16 33 19C33 22 30 24 28 24H12C9.5 24 7 23 7 22Z" fill="#FF9900" opacity="0.2" stroke="#FF9900" strokeWidth="1.5" />
-        <path d="M12 28C15 30 19 31 23 30C27 29 30 27 30 27" stroke="#FF9900" strokeWidth="1.8" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
-    label: "Docker",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <rect x="5" y="18" width="30" height="10" rx="2" fill="#2496ED" opacity="0.15" stroke="#2496ED" strokeWidth="1.5" />
-        <rect x="8" y="13" width="5" height="5" rx="1" fill="#2496ED" opacity="0.5" />
-        <rect x="14" y="13" width="5" height="5" rx="1" fill="#2496ED" opacity="0.5" />
-        <rect x="20" y="13" width="5" height="5" rx="1" fill="#2496ED" opacity="0.5" />
-        <rect x="14" y="8" width="5" height="5" rx="1" fill="#2496ED" opacity="0.3" />
-      </svg>
-    ),
-  },
-  {
-    label: "Figma",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <rect x="10" y="6" width="10" height="10" rx="5" fill="#F24E1E" opacity="0.8" />
-        <rect x="20" y="6" width="10" height="10" rx="5" fill="#FF7262" opacity="0.8" />
-        <rect x="10" y="16" width="10" height="10" rx="2" fill="#A259FF" opacity="0.8" />
-        <rect x="10" y="26" width="10" height="10" rx="5" fill="#0ACF83" opacity="0.8" />
-        <circle cx="25" cy="21" r="5" fill="#1ABCFE" opacity="0.8" />
-      </svg>
-    ),
-  },
-  {
-    label: "Kubernetes",
-    svg: (
-      <svg viewBox="0 0 40 40" fill="none" className="w-9 h-9">
-        <circle cx="20" cy="20" r="12" fill="#326CE5" opacity="0.15" stroke="#326CE5" strokeWidth="1.5" />
-        <circle cx="20" cy="20" r="4" fill="#326CE5" opacity="0.6" />
-        <line x1="20" y1="8" x2="20" y2="16" stroke="#326CE5" strokeWidth="1.5" />
-        <line x1="20" y1="24" x2="20" y2="32" stroke="#326CE5" strokeWidth="1.5" />
-        <line x1="11" y1="11" x2="17" y2="17" stroke="#326CE5" strokeWidth="1.2" />
-        <line x1="23" y1="23" x2="29" y2="29" stroke="#326CE5" strokeWidth="1.2" />
-      </svg>
-    ),
-  },
-];
+const badgeIcons: Record<string, React.ReactNode> = {
+  star: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 0l2.35 4.76L16 5.53l-4 3.9 .94 5.5L8 12.1l-5 2.83.95-5.5-4-3.9 5.65-.77z" />
+    </svg>
+  ),
+  handshake: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8.5 2.5L5.8 5.2c-.3.3-.3.7 0 1l.5.5c.3.3.7.3 1 0l2-2L12 7.4l-3.2 3.2c-.3.3-.3.7 0 1l.5.5c.3.3.7.3 1 0L14 8.4V12h2V6l-3-3.5H8.5zM7.5 13.5L10.2 10.8c.3-.3.3-.7 0-1l-.5-.5c-.3-.3-.7-.3-1 0l-2 2L4 8.6l3.2-3.2c.3-.3.3-.7 0-1l-.5-.5c-.3-.3-.7-.3-1 0L2 7.6V4H0v6l3 3.5h4.5z" />
+    </svg>
+  ),
+  badge: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 0a4 4 0 0 0-4 4c0 1.5.8 2.8 2 3.5V16l2-1.5L10 16V7.5c1.2-.7 2-2 2-3.5a4 4 0 0 0-4-4zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
+    </svg>
+  ),
+  trophy: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M4 1v1H1v3c0 1.7 1.3 3 3 3h.2C5 9.2 6.4 10 8 10s3-.8 3.8-2H12c1.7 0 3-1.3 3-3V2h-3V1H4zM2 3h1v2.3C2.4 5 2 4.6 2 4V3zm12 0v1c0 .6-.4 1-1 1h0V3h1zM5 12v1h6v-1l1 0v2H4v-2l1 0z" />
+    </svg>
+  ),
+  clock: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 14A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm.5-9H7v5l4.3 2.5.7-1.2-3.5-2V5z" />
+    </svg>
+  ),
+  headset: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 1a7 7 0 0 0-7 7v3a2 2 0 0 0 2 2h1V8H3c0-2.8 2.2-5 5-5s5 2.2 5 5h-1v5h1c.4 0 .8-.1 1.1-.4C14 13.4 13 14 12 14h-2v1h2a3 3 0 0 0 3-3V8a7 7 0 0 0-7-7z" />
+    </svg>
+  ),
+  bolt: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M9 0L3 9h4v7l6-9H9V0z" />
+    </svg>
+  ),
+  shield: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 0L1 3v4c0 4.4 3 8.5 7 10 4-1.5 7-5.6 7-10V3L8 0zm0 2l5 2.2V7c0 3.5-2.3 6.7-5 8-2.7-1.3-5-4.5-5-8V4.2L8 2z" />
+    </svg>
+  ),
+  rocket: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M14.5 1.5c-1.8 0-4.3.8-6.2 2.7L7 5.5 4.5 5l-2 2 3 1-1.5 1.5L2 9l-1 1 3 3 1-1-.5-2 1.5-1.5 1 3 2-2-.5-2.5 1.3-1.3c1.9-1.9 2.7-4.4 2.7-6.2l1-1.5-1.5 1z" />
+    </svg>
+  ),
+  check: (
+    <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 shrink-0 fill-[#FF3E00]">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 14A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm3.3-8.7l-4 4-1.6-1.6-1.4 1.4 3 3 5.4-5.4-1.4-1.4z" />
+    </svg>
+  ),
+};
+
 
 const heroWords = ["We", "Build", "Digital", "Products", "That", "Drive", "Real", "Growth"];
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[92vh] overflow-hidden flex flex-col">
+    <section className="relative min-h-[92vh] overflow-hidden flex flex-col -mt-20">
       {/* WebGL shader background */}
       <ShaderBackground />
 
       {/* Main hero content */}
-      <div className="relative z-10 flex-1 max-w-[1280px] mx-auto w-full px-6 py-16 lg:py-24 flex items-center">
+      <div className="relative z-10 flex-1 max-w-[1280px] mx-auto w-full px-6 pt-32 pb-16 lg:pt-36 lg:pb-24 flex items-center">
         <div className="w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
 
           {/* Left column — text */}
@@ -183,62 +150,33 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Right column — tech icon grid (structured layout) */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="hidden lg:block lg:w-[45%]"
-          >
-            <div className="relative">
-              {/* Structured 3x3 grid with center stat */}
-              <div className="grid grid-cols-3 gap-5 max-w-[360px] ml-auto">
-                {/* Row 1 */}
-                <IconCard icon={techIcons[0]} delay={0} />
-                <IconCard icon={techIcons[2]} delay={0.15} />
-                <IconCard icon={techIcons[1]} delay={0.3} />
-
-                {/* Row 2 */}
-                <IconCard icon={techIcons[3]} delay={0.1} />
-                {/* Center: stat card */}
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  className="bg-white/90 backdrop-blur-sm border border-border rounded-2xl shadow-xl p-4 flex items-center justify-center"
-                >
-                  <div className="text-center">
-                    <div className="font-heading font-bold text-2xl text-[#FF3E00]">120+</div>
-                    <div className="text-[10px] text-muted-foreground font-medium leading-tight mt-0.5">Projects<br />Delivered</div>
-                  </div>
-                </motion.div>
-                <IconCard icon={techIcons[5]} delay={0.25} />
-
-                {/* Row 3 */}
-                <IconCard icon={techIcons[6]} delay={0.2} />
-                <IconCard icon={techIcons[4]} delay={0.35} />
-                <IconCard icon={techIcons[7]} delay={0.15} />
-              </div>
-            </div>
-          </motion.div>
+          {/* Right column — interactive globe */}
+          <div className="hidden lg:block lg:w-[45%]">
+            <TechGlobe />
+          </div>
         </div>
       </div>
 
-      {/* Trust badges marquee strip */}
-      <div className="relative z-10 border-t border-border/50 py-3 overflow-hidden bg-white/40 backdrop-blur-sm">
-        <div
-          className="flex gap-4 w-max"
-          style={{ animation: "marquee 20s linear infinite" }}
-        >
-          {trustBadges.map((badge, i) => (
-            <span
-              key={i}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border text-xs text-muted-foreground bg-white/60 whitespace-nowrap"
+      {/* Trust strip */}
+      <div className="relative z-10">
+        {/* Glass bar */}
+        <div className="relative overflow-hidden bg-[#0C0C0D]/[0.04] backdrop-blur-md border-t border-b border-black/[0.06]">
+          <div className="overflow-hidden mask-marquee py-3">
+            <div
+              className="flex gap-3 w-max"
+              style={{ animation: "marquee 18s linear infinite" }}
             >
-              <span className="w-1 h-1 rounded-full bg-[#FF3E00]/60" />
-              {badge}
-            </span>
-          ))}
+              {[...trustBadges, ...trustBadges].map((badge, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-medium whitespace-nowrap bg-[#FF3E00]/[0.07] text-[#FF3E00] border border-[#FF3E00]/10"
+                >
+                  {badgeIcons[badge.icon]}
+                  {badge.text}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -247,21 +185,12 @@ export default function Hero() {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
         }
+        .mask-marquee {
+          mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+          -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+        }
       `}</style>
     </section>
   );
 }
 
-function IconCard({ icon, delay }: { icon: { label: string; svg: React.ReactNode }; delay: number }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.4 + delay, ease: [0.16, 1, 0.3, 1] }}
-      className="group bg-white/80 backdrop-blur-sm border border-border/60 rounded-2xl p-4 flex flex-col items-center justify-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 aspect-square"
-    >
-      {icon.svg}
-      <span className="text-[11px] font-medium text-muted-foreground">{icon.label}</span>
-    </motion.div>
-  );
-}

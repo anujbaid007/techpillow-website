@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -119,11 +120,16 @@ export default function Navbar() {
             {/* Logo */}
             <Link
               href="/"
-              className="flex items-center gap-1 font-heading font-bold text-xl text-[#0C0C0D] hover:opacity-80 transition-opacity"
+              className="flex items-center gap-0.5 hover:opacity-80 transition-opacity"
             >
-              Tech
-              <span className="text-[#FF3E00]">Pillow</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-[#FF3E00] mb-2 ml-0.5" />
+              <Image
+                src="/images/logo.png"
+                alt="TechPillow"
+                width={140}
+                height={40}
+                className="h-7 w-auto"
+                                priority
+              />
             </Link>
 
             {/* Desktop Nav */}
@@ -331,11 +337,15 @@ export default function Navbar() {
               <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
                 <Link
                   href="/"
-                  className="font-heading font-bold text-lg text-[#0C0C0D]"
                   onClick={() => setMobileOpen(false)}
                 >
-                  Tech<span className="text-[#FF3E00]">Pillow</span>
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#FF3E00] mb-1.5 ml-0.5" />
+                  <Image
+                    src="/images/logo.png"
+                    alt="TechPillow"
+                    width={120}
+                    height={34}
+                    className="h-6 w-auto"
+                                      />
                 </Link>
                 <button
                   className="p-2 rounded-full hover:bg-gray-100 transition-colors"

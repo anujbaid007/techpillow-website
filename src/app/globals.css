@@ -125,3 +125,13 @@ html {
     transform: translate(-50%, -40%) scale(1);
   }
 }
+
+/* Animated border rotation */
+@keyframes border-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

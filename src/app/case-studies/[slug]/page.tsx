@@ -15,12 +15,13 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const cs = caseStudies.find((c) => c.slug === params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const cs = caseStudies.find((c) => c.slug === slug);
   if (!cs) return {};
 
   return {
@@ -29,12 +30,13 @@ export function generateMetadata({
   };
 }
 
-export default function CaseStudyPage({
+export default async function CaseStudyPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const cs = caseStudies.find((c) => c.slug === params.slug);
+  const { slug } = await params;
+  const cs = caseStudies.find((c) => c.slug === slug);
   if (!cs) notFound();
 
   const techStackItems = cs.techStack.map((t) => ({
@@ -63,7 +65,7 @@ export default function CaseStudyPage({
             <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight">
               {cs.name}
             </h1>
-            <p className="mt-4 text-lg sm:text-xl text-muted-foreground max-w-3xl">
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl">
               {cs.description}
             </p>
           </ScrollReveal>

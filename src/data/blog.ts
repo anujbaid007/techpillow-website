@@ -115,4 +115,119 @@ AI is a tool, not a strategy. The businesses that benefit most from AI are the o
         "A practical guide to implementing AI and ML in Indian businesses. Learn where AI actually works, the LLM question, and how to avoid the hype trap.",
     },
   },
+  {
+    slug: "upi-fintech-stack-building-payments-india",
+    title: "Building on India's UPI Stack: What Every Fintech Founder Needs to Know",
+    date: "2026-03-20",
+    author: "TechPillow Team",
+    excerpt:
+      "UPI processed 228 billion transactions in 2025. Here's how to build on top of India's most powerful digital payments infrastructure.",
+    featuredImage: "/images/blog/placeholder-4.jpg",
+    content: `India's Unified Payments Interface processed 228.3 billion transactions worth ₹299.7 lakh crore in 2025 — a 29% year-on-year increase. UPI has surpassed 500 million unique users, and with 530 banks now participating, it's the backbone of India's digital economy.
+
+If you're building a fintech product in India, UPI isn't optional — it's the foundation.
+
+## The UPI Landscape in 2026
+
+PhonePe leads with 47.8% market share, followed by Google Pay at 34.2% and Paytm at 9.1%. But the real story isn't the TPAP rankings — it's how UPI is evolving beyond simple person-to-person payments.
+
+UPI now powers credit products, with the Account Aggregator framework enabling consent-based financial data sharing. Banks and fintech companies can gauge creditworthiness using verifiable payment histories, dramatically reducing the cost of lending to thin-file customers.
+
+## Building Payment Flows That Convert
+
+The biggest mistake we see fintech startups make is treating UPI integration as a checkbox. A poorly implemented payment flow will cost you users — and in India's competitive landscape, users don't come back.
+
+Key considerations: support for UPI intent flows (not just collect requests), saved UPI mandates for recurring payments, graceful handling of payment timeouts, and proper reconciliation automation. The difference between a 60% and 90% payment success rate often comes down to how you handle edge cases.
+
+## Beyond Payments: UPI as Infrastructure
+
+UPI is becoming a platform, not just a payment method. UPI Lite for small-value offline transactions, UPI AutoPay for subscriptions, and cross-border UPI for international remittances are all expanding the surface area for fintech innovation.
+
+The government-backed ONDC is also leveraging UPI to unbundle e-commerce, allowing any seller to reach any buyer with integrated payment rails. This creates opportunities for niche fintech plays in settlement, escrow, and merchant services.
+
+## The Bottom Line
+
+With 13.4 billion transactions in February 2026 alone, UPI isn't slowing down. The fintech products that will win in India are the ones that treat UPI not as a payment gateway, but as a platform to build upon.`,
+    seo: {
+      title: "Building on India's UPI Stack: Fintech Guide | TechPillow Blog",
+      description:
+        "UPI processed 228 billion transactions in 2025. Learn how to build on India's payments infrastructure — from UPI integration to Account Aggregator and ONDC.",
+    },
+  },
+  {
+    slug: "cloud-cost-optimization-indian-startups",
+    title: "Your AWS Bill Is Too High: A Cloud Cost Guide for Indian Startups",
+    date: "2026-03-12",
+    author: "TechPillow Team",
+    excerpt:
+      "India's cloud market hit $21.8 billion in 2025. Here's how to stop overpaying and right-size your infrastructure.",
+    featuredImage: "/images/blog/placeholder-5.jpg",
+    content: `India's cloud computing market reached USD 21.8 billion in 2025, growing at 24.5% CAGR, and is expected to contribute 8% of GDP by 2026. But here's the uncomfortable truth: most Indian startups are overpaying for cloud by 30-50%.
+
+We've audited dozens of AWS, GCP, and Azure accounts for Indian startups, and the patterns are remarkably consistent.
+
+## The Three Most Expensive Mistakes
+
+The first is over-provisioning. Teams spin up large instances during development and never right-size for production workloads. A c5.2xlarge running at 15% CPU utilisation is money burning.
+
+The second is ignoring Reserved Instances and Savings Plans. If your workload is predictable — and most are — you should be committing to 1-year or 3-year reservations for 30-60% savings. Spot instances for stateless workloads can cut costs by up to 90%.
+
+The third is unmanaged storage. S3 buckets without lifecycle policies, EBS volumes attached to terminated instances, and RDS snapshots accumulating without cleanup are silent budget killers.
+
+## AWS vs Azure vs GCP in India
+
+AWS retains its leadership in India with roughly 32.6% market share, Azure is at 20.8% and growing fastest (particularly in enterprise), and GCP holds 11.4%. For Indian startups, the choice often comes down to: AWS for breadth of services, GCP for data and ML workloads, Azure for enterprise-integrated environments.
+
+But the cloud provider matters less than how you use it. A well-architected workload on any provider will outperform a poorly configured one on the "best" provider.
+
+## Kubernetes: Right-Size Before You Scale
+
+India projects the highest country-level Kubernetes growth through 2030. But K8s without proper resource requests and limits is just a more complex way to waste money. Set CPU and memory requests based on actual usage, implement Horizontal Pod Autoscalers, and use cluster autoscaling to match node capacity to demand.
+
+## The Bottom Line
+
+Cloud cost optimisation isn't a one-time exercise — it's a practice. Monthly reviews, automated alerts for spending anomalies, and a culture of cost-aware engineering will save your startup lakhs every quarter.`,
+    seo: {
+      title: "Cloud Cost Optimization for Indian Startups | TechPillow Blog",
+      description:
+        "India's cloud market hit $21.8B in 2025. Learn how Indian startups can cut AWS, GCP, and Azure bills by 30-50% with right-sizing and cost optimization.",
+    },
+  },
+  {
+    slug: "quick-commerce-tech-stack-india",
+    title: "The Tech Behind 10-Minute Delivery: How Quick Commerce Works in India",
+    date: "2026-02-20",
+    author: "TechPillow Team",
+    excerpt:
+      "Quick commerce is growing at 70-80% CAGR in India. Here's the technology stack powering Blinkit, Zepto, and the next generation of hyperlocal delivery.",
+    featuredImage: "/images/blog/placeholder-6.jpg",
+    content: `India's quick commerce sector surged to ₹64,000 crore in FY25, with gross order value expected to triple by FY28. Blinkit's daily order share doubled from 8% to 17% in just eight months. With 1,200+ micro-fulfilment sites across Indian cities, 10-minute grocery delivery has gone from gimmick to expectation.
+
+But the real story isn't the delivery speed — it's the technology stack that makes it possible.
+
+## The Architecture of Speed
+
+Quick commerce platforms solve a deceptively simple problem: get an order from a dark store to a doorstep in under 10 minutes. But behind that simplicity lies a complex real-time system spanning inventory management, order routing, rider dispatch, and route optimisation — all executing in milliseconds.
+
+The typical architecture involves event-driven microservices (often Node.js or Go), Redis for real-time state management, PostgreSQL for persistent storage, and Apache Kafka for event streaming between services. Location services lean heavily on Google Maps Platform or Mapbox for geocoding, ETA calculation, and turn-by-turn navigation.
+
+## Inventory: The Hidden Bottleneck
+
+The hardest problem in quick commerce isn't delivery — it's inventory. Each dark store carries 2,000-5,000 SKUs in a 2,000-3,000 sq ft space. Demand forecasting at the store-SKU level, automated reorder triggers, and real-time stock sync across the platform and delivery app are what separate platforms that scale from those that collapse under demand spikes.
+
+ML models trained on hyperlocal purchasing patterns — accounting for weather, festivals, local events, and day-of-week variations — drive replenishment decisions. Getting this wrong means either stockouts (lost orders) or overstock (wasted perishables).
+
+## What This Means for E-Commerce Builders
+
+Quick commerce isn't just for groceries anymore. Personal care, electronics accessories, and even fashion are moving to rapid delivery models. If you're building an e-commerce platform in India, your architecture needs to account for hyperlocal fulfilment — even if you're not doing 10-minute delivery today.
+
+## The Bottom Line
+
+The technology behind quick commerce is a masterclass in real-time systems engineering. The platforms that win will be the ones that treat inventory intelligence and logistics optimisation as core technical competencies, not operational afterthoughts.`,
+    seo: {
+      title: "Quick Commerce Tech Stack in India | TechPillow Blog",
+      description:
+        "Quick commerce is growing at 70-80% CAGR in India. Explore the tech stack powering 10-minute delivery — from microservices architecture to ML-driven inventory.",
+    },
+  },
 ];

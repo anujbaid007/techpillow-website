@@ -17,7 +17,7 @@ export const services: Service[] = [
     name: "Custom Software Development",
     tagline: "Built to scale, engineered to last.",
     description:
-      "We design and develop bespoke software that fits your business like a glove — not the other way around. From complex enterprise platforms to lightweight internal tools, our engineers ship clean, maintainable code that holds up under real-world pressure. We've helped startups replace brittle legacy systems and helped enterprises automate workflows that were costing them lakhs every month. Every engagement begins with understanding your business, not just your backlog.",
+      "India's custom software market is projected to hit USD 10.5 billion by 2030, growing at 28.5% CAGR — and we're building the systems that matter. From complex enterprise platforms to lightweight internal tools, our engineers ship clean, maintainable code that holds up under real-world pressure. We've helped startups replace brittle legacy systems and helped enterprises automate workflows that were costing them lakhs every month. Every engagement begins with understanding your business, not just your backlog. Whether it's a GST-compliant ERP, a multi-tenant SaaS platform, or a microservices migration — we build software your team can own long after handover.",
     icon: "Code",
     shortDescription:
       "Scalable backends, APIs, and enterprise tools engineered for the long haul. Cut downtime, launch faster, spend less on maintenance.",
@@ -100,7 +100,7 @@ export const services: Service[] = [
     name: "Mobile App Development",
     tagline: "Your app shouldn't crash on demo day.",
     description:
-      "We build mobile applications that users actually want to open every day. Whether you need a native iOS experience, a high-performance Android app, or a cost-efficient cross-platform product, our mobile team delivers quality that stands out in crowded app stores. We've shipped apps in fintech, edtech, healthcare, and on-demand verticals — and we treat app store ratings as a KPI, not an afterthought. Clean code, thoughtful UX, and post-launch support included.",
+      "India's app economy is racing toward USD 27.7 billion by 2030, and 75% of tech startups now choose cross-platform over native. We build mobile applications that users actually want to open every day — whether that's a Flutter app with pixel-perfect animations, a React Native product sharing logic with your web platform, or a native Swift/Kotlin build for maximum hardware access. With India's 5G subscriber base crossing 350 million and 600,000 villages coming online via the National Broadband Mission, your app needs to perform from flagship phones in Mumbai to budget handsets in Tier 3 towns. We've shipped apps in fintech, edtech, healthcare, and on-demand verticals — and we treat app store ratings as a KPI, not an afterthought.",
     icon: "Smartphone",
     shortDescription:
       "Native and cross-platform apps built for performance and retention. Fast builds, clean code, zero drama.",
@@ -118,12 +118,12 @@ export const services: Service[] = [
       {
         title: "Flutter Cross-Platform",
         description:
-          "Single codebase, native performance on both iOS and Android. Flutter is our default recommendation for most consumer apps.",
+          "Single codebase, native performance on both iOS and Android. Flutter holds 46% of the cross-platform market — it's our default recommendation for most consumer apps.",
       },
       {
         title: "React Native",
         description:
-          "For teams with existing React expertise, we build robust React Native apps that share code with your web product.",
+          "For teams with existing React expertise, we build robust React Native apps with the new Bridgeless Architecture that eliminates JS bridge bottlenecks.",
       },
       {
         title: "App Store Optimization",
@@ -263,7 +263,7 @@ export const services: Service[] = [
     name: "AI & Machine Learning",
     tagline: "Intelligent systems that work while you sleep.",
     description:
-      "We help businesses move beyond the AI hype and into real, measurable automation. Our ML engineers have built recommendation engines for consumer platforms, NLP pipelines for document processing, and predictive models that cut operational costs by double-digit percentages. We work with your data — not generic demos — and deliver models that integrate directly into your existing workflows. If you're evaluating LLMs or GenAI for your product, we'll tell you honestly whether it'll move the needle.",
+      "India's AI market reached USD 1.6 billion in 2025 and is accelerating toward USD 13.2 billion by 2034. But we help businesses move beyond the hype and into real, measurable automation. Over 80% of applications now embed AI capabilities — from recommendation engines and NLP pipelines to predictive models that cut operational costs by double-digit percentages. We work with your data — not generic demos — and deliver models that integrate directly into your existing workflows. Whether you're fine-tuning open-source LLMs on domain-specific data, building RAG pipelines with LangChain, or deploying computer vision for quality inspection — we'll tell you honestly what'll move the needle and what won't.",
     icon: "Brain",
     shortDescription:
       "Intelligent automation and predictive analytics that reduce costs and unlock new revenue streams.",
@@ -284,9 +284,9 @@ export const services: Service[] = [
           "Image recognition, object detection, and quality inspection systems for manufacturing, retail, and healthcare applications.",
       },
       {
-        title: "AI Chatbots",
+        title: "AI Chatbots & Agents",
         description:
-          "LLM-powered conversational agents integrated with your knowledge base, CRM, and support workflows.",
+          "LLM-powered conversational agents and autonomous AI agents integrated with your knowledge base, CRM, and support workflows using RAG and agentic frameworks.",
       },
       {
         title: "Recommendation Engines",
@@ -305,6 +305,7 @@ export const services: Service[] = [
       { name: "PyTorch", icon: "pytorch" },
       { name: "OpenAI", icon: "openai" },
       { name: "LangChain", icon: "langchain" },
+      { name: "Hugging Face", icon: "huggingface" },
       { name: "AWS SageMaker", icon: "aws" },
     ],
     process: [
@@ -425,7 +426,7 @@ export const services: Service[] = [
     name: "Cloud & DevOps",
     tagline: "Ship faster. Scale confidently. Sleep better.",
     description:
-      "Modern software teams shouldn't be bottlenecked by infrastructure. We build the CI/CD pipelines, container orchestration, and observability stacks that let your developers deploy multiple times a day with confidence. Whether you're migrating a monolith to microservices, setting up your first Kubernetes cluster, or reducing a ₹5L/month cloud bill, our DevOps engineers bring the expertise to do it right. We treat infrastructure as code — version controlled, tested, and reproducible.",
+      "India's cloud market hit USD 21.8 billion in 2025 and is projected to contribute 8% of GDP by 2026 — yet most teams are still bottlenecked by infrastructure. We build the CI/CD pipelines, container orchestration, and observability stacks that let your developers deploy multiple times a day with confidence. India's DevOps market is growing at 19% CAGR, and Kubernetes adoption is among the fastest globally. Whether you're migrating a monolith to microservices, setting up your first K8s cluster on EKS or GKE, or reducing a ₹5L/month cloud bill with right-sizing and spot instances — we treat infrastructure as code: version controlled, tested, and reproducible.",
     icon: "Cloud",
     shortDescription:
       "CI/CD pipelines, cloud infrastructure, and container orchestration that let your team ship faster with fewer incidents.",
@@ -468,7 +469,7 @@ export const services: Service[] = [
       { name: "Docker", icon: "docker" },
       { name: "Kubernetes", icon: "kubernetes" },
       { name: "Terraform", icon: "terraform" },
-      { name: "Jenkins", icon: "jenkins" },
+      { name: "GitHub Actions", icon: "github" },
     ],
     process: [
       {
@@ -508,7 +509,7 @@ export const services: Service[] = [
     name: "IT Resources",
     tagline: "Your team, extended — not replaced.",
     description:
-      "When you need senior engineering talent without the overhead of full-time hiring, TechPillow provides vetted developers who integrate directly into your team. Our engineers work on your tools, follow your processes, and are accountable to your product goals — not to a distant vendor KPI. We've embedded engineers in Berlin startups, Mumbai scaleups, and London enterprises alike. Engagement models range from a single senior backend engineer to a full embedded squad with a delivery lead.",
+      "India handles over 55% of global IT services with 5.8 million tech professionals and exports exceeding USD 260 billion. When you need senior engineering talent without the overhead of full-time hiring, TechPillow provides vetted developers who integrate directly into your team — at 40-70% lower cost than onshore hiring. Our engineers work on your tools, follow your processes, and are accountable to your product goals — not to a distant vendor KPI. We've embedded engineers in Berlin startups, Mumbai scaleups, and London enterprises alike. Engagement models range from a single senior backend engineer to a full embedded squad with a delivery lead.",
     icon: "Users",
     shortDescription:
       "Vetted developers and dedicated teams that integrate into your workflow and ship like your best in-house engineers.",
