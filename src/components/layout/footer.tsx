@@ -40,6 +40,7 @@ const quickLinks = [
   { label: "Case Studies", href: "/case-studies" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -231,7 +232,7 @@ export default function Footer() {
           {/* Legal Links */}
           <div className="flex items-center gap-4">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="text-xs text-gray-500 hover:text-[#FF3E00] transition-colors"
             >
               Privacy Policy
