@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { caseStudies } from "@/data/case-studies";
@@ -69,11 +70,14 @@ export default function CaseStudiesFilter() {
               href={`/case-studies/${cs.slug}`}
               className="group flex flex-col h-full border rounded-2xl overflow-hidden hover:border-[#FF3E00]/40 hover:shadow-lg transition-all duration-300"
             >
-              {/* Placeholder image */}
-              <div className="aspect-[16/10] bg-gradient-to-br from-orange-50 to-gray-100 flex items-center justify-center">
-                <span className="text-2xl font-heading font-bold text-muted-foreground/20">
-                  {cs.name}
-                </span>
+              {/* Project image */}
+              <div className="aspect-[16/10] bg-gray-100 relative overflow-hidden">
+                <Image
+                  src={cs.image}
+                  alt={cs.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
 
               <div className="p-6 flex flex-col flex-1">

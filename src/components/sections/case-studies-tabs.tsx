@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
@@ -76,11 +77,14 @@ export default function CaseStudiesTabs() {
             {filtered.map((cs, i) => (
               <ScrollReveal key={cs.slug} delay={i * 0.1}>
                 <div className="bg-white rounded-2xl border border-border overflow-hidden hover:shadow-lg transition-shadow h-full flex flex-col">
-                  {/* Placeholder image */}
-                  <div className="aspect-[16/10] bg-gradient-to-br from-orange-50 to-gray-100 flex items-center justify-center">
-                    <span className="text-sm text-muted-foreground font-medium">
-                      {cs.name}
-                    </span>
+                  {/* Project image */}
+                  <div className="aspect-[16/10] bg-gray-100 relative overflow-hidden">
+                    <Image
+                      src={cs.image}
+                      alt={cs.name}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
                   </div>
 
                   <div className="p-6 flex flex-col flex-1">

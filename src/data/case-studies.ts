@@ -30,7 +30,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "3x", label: "Vendor Onboarding Speed" },
       { value: "50K+", label: "Monthly Users" },
     ],
-    image: "/images/case-studies/khwaishh.jpg",
+    image: "/images/case-studies/khwaishh.webp",
     seo: {
       title: "Khwaishh Multi-Vendor Fashion Marketplace — TechPillow Case Study",
       description:
@@ -53,7 +53,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "50K+", label: "Students Reached" },
       { value: "4.5", label: "App Store Rating" },
     ],
-    image: "/images/case-studies/brainwoo.jpg",
+    image: "/images/case-studies/brainwoo.webp",
     seo: {
       title: "BrainWoo K-12 Learning Platform — TechPillow Case Study",
       description:
@@ -76,7 +76,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "104.6M+", label: "Global Audience" },
       { value: "60%", label: "Engagement Boost" },
     ],
-    image: "/images/case-studies/itp-media.jpg",
+    image: "/images/case-studies/itp-media.webp",
     seo: {
       title: "ITP Media Group Interactive Website — TechPillow Case Study",
       description:
@@ -104,7 +104,7 @@ export const caseStudies: CaseStudy[] = [
       author: "Ashish Dalal",
       role: "Marketing Head, Growpital",
     },
-    image: "/images/case-studies/growpital.jpg",
+    image: "/images/case-studies/growpital.webp",
     seo: {
       title: "Growpital Agricultural Investment Platform — TechPillow Case Study",
       description:
@@ -127,7 +127,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "1M+", label: "Monthly Readers" },
       { value: "85%", label: "Mobile Traffic" },
     ],
-    image: "/images/case-studies/eastmojo.jpg",
+    image: "/images/case-studies/eastmojo.webp",
     seo: {
       title: "EastMojo Digital News Platform — TechPillow Case Study",
       description:
@@ -155,7 +155,7 @@ export const caseStudies: CaseStudy[] = [
       author: "Nikhil Goel",
       role: "Founder, BitMemoir",
     },
-    image: "/images/case-studies/bitmemoir.jpg",
+    image: "/images/case-studies/bitmemoir.webp",
     seo: {
       title: "BitMemoir Blockchain Certification Platform — TechPillow Case Study",
       description:

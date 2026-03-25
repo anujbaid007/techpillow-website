@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Quote } from "lucide-react";
@@ -67,12 +68,16 @@ export default function CaseStudyPage({
             </p>
           </ScrollReveal>
 
-          {/* Placeholder project image */}
+          {/* Project image */}
           <ScrollReveal delay={0.2}>
-            <div className="mt-12 aspect-[16/9] rounded-2xl bg-gradient-to-br from-orange-50 to-gray-100 border border-border flex items-center justify-center">
-              <span className="text-4xl font-heading font-bold text-muted-foreground/15">
-                {cs.name}
-              </span>
+            <div className="mt-12 aspect-[16/9] rounded-2xl overflow-hidden border border-border relative">
+              <Image
+                src={cs.image}
+                alt={cs.name}
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </ScrollReveal>
         </div>

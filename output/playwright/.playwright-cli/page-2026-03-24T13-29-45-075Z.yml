@@ -1,0 +1,669 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Tech Pillow" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: Tech
+          - generic [ref=e6]: Pillow
+        - generic [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+          - link "Case Studies" [ref=e10] [cursor=pointer]:
+            - /url: /case-studies
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /about
+          - link "Blog" [ref=e12] [cursor=pointer]:
+            - /url: /blog
+          - button "Services" [ref=e14]:
+            - text: Services
+            - img [ref=e15]
+          - button "Industries" [ref=e18]:
+            - text: Industries
+            - img [ref=e19]
+        - link "Book a Free Strategy Call" [ref=e22] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e23]:
+    - main [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e31]: India's Trusted Tech Partner
+            - heading "We Build Digital Products That Drive Real Growth" [level=1] [ref=e33]:
+              - generic [ref=e34]: We
+              - generic [ref=e35]: Build
+              - generic [ref=e36]: Digital
+              - generic [ref=e37]: Products
+              - generic [ref=e38]: That
+              - generic [ref=e39]: Drive
+              - generic [ref=e40]: Real
+              - generic [ref=e41]: Growth
+            - paragraph [ref=e42]: Custom software, AI solutions, and mobile apps — engineered to scale. Trusted by 120+ businesses across India and beyond.
+            - generic [ref=e43]:
+              - link "Book a Free Strategy Call" [ref=e44] [cursor=pointer]:
+                - /url: /contact
+              - link "Explore Our Work" [ref=e45] [cursor=pointer]:
+                - /url: /case-studies
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e53]: React
+            - generic [ref=e54]:
+              - img [ref=e55]:
+                - generic [ref=e58]: "N"
+              - generic [ref=e59]: Node.js
+            - generic [ref=e60]:
+              - img [ref=e61]
+              - generic [ref=e64]: Flutter
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - generic [ref=e70]: AWS
+            - generic [ref=e71]:
+              - img [ref=e72]
+              - generic [ref=e77]: Python
+            - generic [ref=e78]:
+              - img [ref=e79]
+              - generic [ref=e86]: Docker
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - generic [ref=e94]: Figma
+            - generic [ref=e95]:
+              - img [ref=e96]
+              - generic [ref=e101]: Kubernetes
+            - generic [ref=e103]:
+              - generic [ref=e104]: 120+
+              - generic [ref=e105]: Projects
+              - generic [ref=e106]: Delivered
+        - generic [ref=e108]:
+          - generic [ref=e109]: Top Rated Agency
+          - generic [ref=e111]: Trusted Partner
+          - generic [ref=e113]: Certified Team
+          - generic [ref=e115]: Award Winning
+          - generic [ref=e117]: Top Rated Agency
+          - generic [ref=e119]: Trusted Partner
+          - generic [ref=e121]: Certified Team
+          - generic [ref=e123]: Award Winning
+      - generic [ref=e127]:
+        - heading "Trusted by Ambitious Businesses Across India" [level=2] [ref=e129]
+        - generic [ref=e130]:
+          - generic [ref=e132]: Growpital
+          - generic [ref=e134]: BrainWoo
+          - generic [ref=e136]: ITP Media
+          - generic [ref=e138]: Khwaishh
+          - generic [ref=e140]: EastMojo
+          - generic [ref=e142]: BitMemoir
+          - generic [ref=e144]: Tallah
+          - generic [ref=e146]: RKM Foundation
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: 0+
+          - paragraph [ref=e152]: Projects Delivered
+        - generic [ref=e153]:
+          - generic [ref=e154]: 0+
+          - paragraph [ref=e155]: Years of Experience
+        - generic [ref=e156]:
+          - generic [ref=e157]: 0+
+          - paragraph [ref=e158]: Team Members
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: About Our Company
+            - heading "Architecting Digital Excellence for Industry Leaders" [level=2] [ref=e166]
+          - paragraph [ref=e167]: We combine cutting-edge technology with deep industry expertise to help businesses innovate, optimize, and scale. From startups building their first MVP to enterprises modernizing legacy systems — we're the tech team that delivers.
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - img [ref=e171]
+              - generic [ref=e173]:
+                - paragraph [ref=e174]: Product-First Thinking
+                - paragraph [ref=e175]: We build for your users, not just your spec
+            - generic [ref=e176]:
+              - img [ref=e178]
+              - generic [ref=e181]:
+                - paragraph [ref=e182]: India-Based, Globally Delivered
+                - paragraph [ref=e183]: Local expertise, international standards
+            - generic [ref=e184]:
+              - img [ref=e186]
+              - generic [ref=e189]:
+                - paragraph [ref=e190]: Startup to Enterprise Scale
+                - paragraph [ref=e191]: MVPs to million-user platforms
+            - generic [ref=e192]:
+              - img [ref=e194]
+              - generic [ref=e196]:
+                - paragraph [ref=e197]: Transparent Communication
+                - paragraph [ref=e198]: Weekly updates, real timelines, zero surprises
+          - link "Learn More" [ref=e199] [cursor=pointer]:
+            - /url: /about
+            - text: Learn More
+            - img [ref=e200]
+        - generic [ref=e204]: Team Photo
+      - generic [ref=e207]:
+        - heading "Is Tech Holding You Back? Let's Fix That." [level=2] [ref=e208]
+        - paragraph [ref=e209]: Focus on growth while we drive your tech innovation.
+        - link "Book a Free Strategy Call" [ref=e210] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - generic [ref=e214]: Our Services
+          - heading "Full-Spectrum Tech Solutions Engineered for Growth" [level=2] [ref=e215]
+          - paragraph [ref=e216]: We create new solutions and transform existing ones to make your business future-proof.
+        - list [ref=e217]:
+          - listitem [ref=e218]:
+            - link "Custom Software Development Scalable backends, APIs, and enterprise tools engineered for the long haul. Cut downtime, launch faster, spend less on maintenance. Learn more" [ref=e219] [cursor=pointer]:
+              - /url: /services/software-development
+              - generic [ref=e220]:
+                - img [ref=e222]
+                - generic [ref=e225]:
+                  - heading "Custom Software Development" [level=3] [ref=e226]
+                  - paragraph [ref=e227]: Scalable backends, APIs, and enterprise tools engineered for the long haul. Cut downtime, launch faster, spend less on maintenance.
+                - generic [ref=e228]:
+                  - text: Learn more
+                  - img [ref=e229]
+          - listitem [ref=e231]:
+            - link "Mobile App Development Native and cross-platform apps built for performance and retention. Fast builds, clean code, zero drama. Learn more" [ref=e232] [cursor=pointer]:
+              - /url: /services/mobile-app-development
+              - generic [ref=e233]:
+                - img [ref=e235]
+                - generic [ref=e237]:
+                  - heading "Mobile App Development" [level=3] [ref=e238]
+                  - paragraph [ref=e239]: Native and cross-platform apps built for performance and retention. Fast builds, clean code, zero drama.
+                - generic [ref=e240]:
+                  - text: Learn more
+                  - img [ref=e241]
+          - listitem [ref=e243]:
+            - link "Web Development Fast, responsive web applications from SPAs to e-commerce. Built for performance and built to last. Learn more" [ref=e244] [cursor=pointer]:
+              - /url: /services/web-development
+              - generic [ref=e245]:
+                - img [ref=e247]
+                - generic [ref=e250]:
+                  - heading "Web Development" [level=3] [ref=e251]
+                  - paragraph [ref=e252]: Fast, responsive web applications from SPAs to e-commerce. Built for performance and built to last.
+                - generic [ref=e253]:
+                  - text: Learn more
+                  - img [ref=e254]
+          - listitem [ref=e256]:
+            - link "AI & Machine Learning Intelligent automation and predictive analytics that reduce costs and unlock new revenue streams. Learn more" [ref=e257] [cursor=pointer]:
+              - /url: /services/ai-ml
+              - generic [ref=e258]:
+                - img [ref=e260]
+                - generic [ref=e268]:
+                  - heading "AI & Machine Learning" [level=3] [ref=e269]
+                  - paragraph [ref=e270]: Intelligent automation and predictive analytics that reduce costs and unlock new revenue streams.
+                - generic [ref=e271]:
+                  - text: Learn more
+                  - img [ref=e272]
+          - listitem [ref=e274]:
+            - link "UI/UX Design Research-driven UI/UX design that reduces drop-off, boosts engagement, and turns users into loyal customers. Learn more" [ref=e275] [cursor=pointer]:
+              - /url: /services/ui-ux
+              - generic [ref=e276]:
+                - img [ref=e278]
+                - generic [ref=e284]:
+                  - heading "UI/UX Design" [level=3] [ref=e285]
+                  - paragraph [ref=e286]: Research-driven UI/UX design that reduces drop-off, boosts engagement, and turns users into loyal customers.
+                - generic [ref=e287]:
+                  - text: Learn more
+                  - img [ref=e288]
+          - listitem [ref=e290]:
+            - link "Cloud & DevOps CI/CD pipelines, cloud infrastructure, and container orchestration that let your team ship faster with fewer incidents. Learn more" [ref=e291] [cursor=pointer]:
+              - /url: /services/cloud-devops
+              - generic [ref=e292]:
+                - img [ref=e294]
+                - generic [ref=e296]:
+                  - heading "Cloud & DevOps" [level=3] [ref=e297]
+                  - paragraph [ref=e298]: CI/CD pipelines, cloud infrastructure, and container orchestration that let your team ship faster with fewer incidents.
+                - generic [ref=e299]:
+                  - text: Learn more
+                  - img [ref=e300]
+          - listitem [ref=e302]:
+            - link "IT Resources Vetted developers and dedicated teams that integrate into your workflow and ship like your best in-house engineers. Learn more" [ref=e303] [cursor=pointer]:
+              - /url: /services/it-resources
+              - generic [ref=e304]:
+                - img [ref=e306]
+                - generic [ref=e311]:
+                  - heading "IT Resources" [level=3] [ref=e312]
+                  - paragraph [ref=e313]: Vetted developers and dedicated teams that integrate into your workflow and ship like your best in-house engineers.
+                - generic [ref=e314]:
+                  - text: Learn more
+                  - img [ref=e315]
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - generic [ref=e320]: Industries
+          - heading "Engineering Industry-Specific Solutions With Innovation" [level=2] [ref=e321]
+          - paragraph [ref=e322]: Deep domain expertise across sectors that matter most to India's digital economy.
+        - generic [ref=e324]:
+          - button "Healthcare" [ref=e325]: Healthcare
+          - button "FinTech" [ref=e327]
+          - button "E-commerce" [ref=e328]
+          - button "Education" [ref=e329]
+          - button "Logistics" [ref=e330]
+          - button "Real Estate" [ref=e331]
+          - button "Food & Beverage" [ref=e332]
+          - button "Travel & Hospitality" [ref=e333]
+          - button "Entertainment & Media" [ref=e334]
+          - button "On-Demand Services" [ref=e335]
+          - button "AgriTech" [ref=e336]
+          - button "Blockchain & Web3" [ref=e337]
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - heading "Healthcare" [level=3] [ref=e340]
+            - paragraph [ref=e341]: Digital health solutions built for India's regulatory landscape — from telemedicine to hospital management systems.
+            - generic [ref=e342]:
+              - generic [ref=e343]: Telemedicine Platforms
+              - generic [ref=e344]: Patient Monitoring
+              - generic [ref=e345]: Hospital Management
+              - generic [ref=e346]: Health Records (ABDM)
+            - link "Learn More" [ref=e347] [cursor=pointer]:
+              - /url: /industries/healthcare
+              - text: Learn More
+              - img [ref=e348]
+          - generic [ref=e352]: 🏥
+      - generic [ref=e354]:
+        - generic [ref=e355]:
+          - generic [ref=e356]: Case Studies
+          - heading "Innovation in Action — Our Recent Work" [level=2] [ref=e357]
+          - paragraph [ref=e358]: Real results from real projects. See how we've helped businesses across industries.
+        - generic [ref=e360]:
+          - button "All" [ref=e361]: All
+          - button "eCommerce" [ref=e363]
+          - button "Education" [ref=e364]
+          - button "Media" [ref=e365]
+          - button "AgriTech" [ref=e366]
+          - button "Blockchain" [ref=e367]
+        - generic [ref=e368]:
+          - generic [ref=e370]:
+            - generic [ref=e372]: Khwaishh
+            - generic [ref=e373]:
+              - generic [ref=e374]: Fashion E-commerce
+              - heading "Khwaishh" [level=3] [ref=e375]
+              - paragraph [ref=e376]: A multi-vendor fashion marketplace built to spotlight young Indian designers and give them direct access to style-conscious buyers nationwide.
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]: 3x
+                  - generic [ref=e380]: Vendor Onboarding Speed
+                - generic [ref=e381]:
+                  - generic [ref=e382]: 50K+
+                  - generic [ref=e383]: Monthly Users
+              - link "View Case Study" [ref=e384] [cursor=pointer]:
+                - /url: /case-studies/khwaishh
+                - text: View Case Study
+                - img [ref=e385]
+          - generic [ref=e388]:
+            - generic [ref=e390]: BrainWoo
+            - generic [ref=e391]:
+              - generic [ref=e392]: Education Platform
+              - heading "BrainWoo" [level=3] [ref=e393]
+              - paragraph [ref=e394]: A regional K-12 learning platform built to bridge the education gap for students in underserved communities across India.
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 50K+
+                  - generic [ref=e398]: Students Reached
+                - generic [ref=e399]:
+                  - generic [ref=e400]: "4.5"
+                  - generic [ref=e401]: App Store Rating
+              - link "View Case Study" [ref=e402] [cursor=pointer]:
+                - /url: /case-studies/brainwoo
+                - text: View Case Study
+                - img [ref=e403]
+          - generic [ref=e406]:
+            - generic [ref=e408]: ITP Media Group
+            - generic [ref=e409]:
+              - generic [ref=e410]: Media Company
+              - heading "ITP Media Group" [level=3] [ref=e411]
+              - paragraph [ref=e412]: A cutting-edge interactive website for one of the world's largest media groups, reaching 104.6 million+ global readers with next-generation digital storytelling.
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]: 104.6M+
+                  - generic [ref=e416]: Global Audience
+                - generic [ref=e417]:
+                  - generic [ref=e418]: 60%
+                  - generic [ref=e419]: Engagement Boost
+              - link "View Case Study" [ref=e420] [cursor=pointer]:
+                - /url: /case-studies/itp-media
+                - text: View Case Study
+                - img [ref=e421]
+          - generic [ref=e424]:
+            - generic [ref=e426]: Growpital
+            - generic [ref=e427]:
+              - generic [ref=e428]: AgriTech Investment
+              - heading "Growpital" [level=3] [ref=e429]
+              - paragraph [ref=e430]: An agricultural investment platform that democratises fractional ownership of agri-assets, opening institutional-quality returns to retail investors across India.
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - generic [ref=e433]: 2x
+                  - generic [ref=e434]: Investor Signups
+                - generic [ref=e435]:
+                  - generic [ref=e436]: 40%
+                  - generic [ref=e437]: Portfolio Growth
+              - link "View Case Study" [ref=e438] [cursor=pointer]:
+                - /url: /case-studies/growpital
+                - text: View Case Study
+                - img [ref=e439]
+          - generic [ref=e442]:
+            - generic [ref=e444]: EastMojo
+            - generic [ref=e445]:
+              - generic [ref=e446]: Digital News
+              - heading "EastMojo" [level=3] [ref=e447]
+              - paragraph [ref=e448]: A digital news platform dedicated to Northeast India — delivering ground-zero reporting, breaking news, and cultural stories to a million monthly readers.
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - generic [ref=e451]: 1M+
+                  - generic [ref=e452]: Monthly Readers
+                - generic [ref=e453]:
+                  - generic [ref=e454]: 85%
+                  - generic [ref=e455]: Mobile Traffic
+              - link "View Case Study" [ref=e456] [cursor=pointer]:
+                - /url: /case-studies/eastmojo
+                - text: View Case Study
+                - img [ref=e457]
+          - generic [ref=e460]:
+            - generic [ref=e462]: BitMemoir
+            - generic [ref=e463]:
+              - generic [ref=e464]: Blockchain Certifications
+              - heading "BitMemoir" [level=3] [ref=e465]
+              - paragraph [ref=e466]: A blockchain-powered platform for issuing tamper-proof digital certifications and NFTs, giving individuals verifiable, permanent ownership of their credentials.
+              - generic [ref=e467]:
+                - generic [ref=e468]:
+                  - generic [ref=e469]: 10K+
+                  - generic [ref=e470]: Certificates Issued
+                - generic [ref=e471]:
+                  - generic [ref=e472]: 99.9%
+                  - generic [ref=e473]: Verification Uptime
+              - link "View Case Study" [ref=e474] [cursor=pointer]:
+                - /url: /case-studies/bitmemoir
+                - text: View Case Study
+                - img [ref=e475]
+      - generic [ref=e479]:
+        - heading "Ready to Build Something Extraordinary?" [level=2] [ref=e480]
+        - paragraph [ref=e481]: From ideation to launch, we're your end-to-end technology partner.
+        - link "Get a Free Consultation" [ref=e482] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e484]:
+        - generic [ref=e485]:
+          - generic [ref=e486]: Why TechPillow
+          - heading "How We Drive Successful Digital Transformation" [level=2] [ref=e487]
+          - paragraph [ref=e488]: Four principles that make us a trusted technology partner for ambitious businesses.
+        - generic [ref=e489]:
+          - generic [ref=e491]:
+            - generic [ref=e494]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e498]:
+              - heading "Product-First Mindset" [level=3] [ref=e499]
+              - paragraph [ref=e500]: We don't just write code — we think like product owners. Every feature is built with user impact and business ROI in mind, not just technical specifications.
+          - generic [ref=e502]:
+            - generic [ref=e505]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e509]:
+              - heading "Speed Without Shortcuts" [level=3] [ref=e510]
+              - paragraph [ref=e511]: Agile sprints, CI/CD pipelines, and a bias for shipping mean you see working software fast. But speed never comes at the cost of clean architecture or test coverage.
+          - generic [ref=e513]:
+            - generic [ref=e516]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e520]:
+              - heading "India-Deep, Global-Ready" [level=3] [ref=e521]
+              - paragraph [ref=e522]: We understand Indian market nuances — UPI, Aadhaar, regional languages, Tier 2 users — while engineering systems that scale globally from day one.
+          - generic [ref=e524]:
+            - generic [ref=e527]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e531]:
+              - heading "Transparent Partnerships" [level=3] [ref=e532]
+              - paragraph [ref=e533]: Weekly demos, shared project boards, and honest timelines. No black-box development — you see exactly what's being built and why, every step of the way.
+      - generic [ref=e535]:
+        - generic [ref=e536]:
+          - generic [ref=e537]: Global Reach
+          - heading "Based in India. Delivering Globally." [level=2] [ref=e538]
+          - paragraph [ref=e539]: From our headquarters in Gurugram, we serve clients across five continents.
+        - generic [ref=e541]:
+          - img "world map"
+          - img
+      - generic [ref=e543]:
+        - generic [ref=e544]:
+          - generic [ref=e545]: Testimonials
+          - heading "Trusted by Founders and CTOs Across India" [level=2] [ref=e546]
+          - paragraph [ref=e547]: Hear from the people who've built with us.
+        - generic [ref=e549]:
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - generic [ref=e553]: TechPillow's team has been very proactive and has proven their value — we've seen a significant increase in our site traffic. Regular updates and redesigning certain elements of the website really made it look more aesthetic and attractive.
+              - generic [ref=e554]:
+                - img "Ashish Dalal" [ref=e555]
+                - generic [ref=e556]:
+                  - generic [ref=e557]: Ashish Dalal
+                  - generic [ref=e558]: Marketing Head
+            - generic [ref=e559]:
+              - generic [ref=e560]: I appreciate their efforts working with new startups. The team brought genuine enthusiasm and technical depth to our project, and I'm looking forward to many more collaborations in the near future.
+              - generic [ref=e561]:
+                - img "Davinder Singh" [ref=e562]
+                - generic [ref=e563]:
+                  - generic [ref=e564]: Davinder Singh
+                  - generic [ref=e565]: CEO
+            - generic [ref=e566]:
+              - generic [ref=e567]: TechPillow's team has been very proactive and has proven their value — we've seen a significant increase in our site traffic. Regular updates and redesigning certain elements of the website really made it look more aesthetic and attractive.
+              - generic [ref=e568]:
+                - img "Ashish Dalal" [ref=e569]
+                - generic [ref=e570]:
+                  - generic [ref=e571]: Ashish Dalal
+                  - generic [ref=e572]: Marketing Head
+            - generic [ref=e573]:
+              - generic [ref=e574]: I appreciate their efforts working with new startups. The team brought genuine enthusiasm and technical depth to our project, and I'm looking forward to many more collaborations in the near future.
+              - generic [ref=e575]:
+                - img "Davinder Singh" [ref=e576]
+                - generic [ref=e577]:
+                  - generic [ref=e578]: Davinder Singh
+                  - generic [ref=e579]: CEO
+          - generic [ref=e581]:
+            - generic [ref=e582]:
+              - generic [ref=e583]: Mayank and his team are very responsible and dedicated. They took care of multiple IT tasks for us — building apps, managing the website, and much more. The team took our requirements and specifications seriously and delivered on every front. I'm completely satisfied with their work.
+              - generic [ref=e584]:
+                - img "Ravi Pahuja" [ref=e585]
+                - generic [ref=e586]:
+                  - generic [ref=e587]: Ravi Pahuja
+                  - generic [ref=e588]: COO
+            - generic [ref=e589]:
+              - generic [ref=e590]: TechPillow didn't just build what we asked for — they helped us rethink the product entirely. Our launch was weeks faster than planned, and adoption doubled in the first month.
+              - generic [ref=e591]:
+                - img "Anonymous CTO" [ref=e592]
+                - generic [ref=e593]:
+                  - generic [ref=e594]: Anonymous CTO
+                  - generic [ref=e595]: CTO
+            - generic [ref=e596]:
+              - generic [ref=e597]: Mayank and his team are very responsible and dedicated. They took care of multiple IT tasks for us — building apps, managing the website, and much more. The team took our requirements and specifications seriously and delivered on every front. I'm completely satisfied with their work.
+              - generic [ref=e598]:
+                - img "Ravi Pahuja" [ref=e599]
+                - generic [ref=e600]:
+                  - generic [ref=e601]: Ravi Pahuja
+                  - generic [ref=e602]: COO
+            - generic [ref=e603]:
+              - generic [ref=e604]: TechPillow didn't just build what we asked for — they helped us rethink the product entirely. Our launch was weeks faster than planned, and adoption doubled in the first month.
+              - generic [ref=e605]:
+                - img "Anonymous CTO" [ref=e606]
+                - generic [ref=e607]:
+                  - generic [ref=e608]: Anonymous CTO
+                  - generic [ref=e609]: CTO
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - generic [ref=e613]: Very enthusiastic and hardworking team. They brought my vision to life exactly as I had imagined, and the output was perfect. The team was highly responsive and took decisive action whenever needed.
+              - generic [ref=e614]:
+                - img "Nikhil Goel" [ref=e615]
+                - generic [ref=e616]:
+                  - generic [ref=e617]: Nikhil Goel
+                  - generic [ref=e618]: Founder
+            - generic [ref=e619]:
+              - generic [ref=e620]: Very enthusiastic and hardworking team. They brought my vision to life exactly as I had imagined, and the output was perfect. The team was highly responsive and took decisive action whenever needed.
+              - generic [ref=e621]:
+                - img "Nikhil Goel" [ref=e622]
+                - generic [ref=e623]:
+                  - generic [ref=e624]: Nikhil Goel
+                  - generic [ref=e625]: Founder
+      - generic [ref=e627]:
+        - generic [ref=e628]:
+          - generic [ref=e629]: Contact
+          - heading "Let's Talk About Your Next Big Idea" [level=2] [ref=e630]
+          - paragraph [ref=e631]: Whether you're launching a startup or scaling an enterprise, we're here to help.
+        - generic [ref=e632]:
+          - generic [ref=e634]:
+            - link "Email Us Hello@techpillow.co" [ref=e635] [cursor=pointer]:
+              - /url: mailto:Hello@techpillow.co
+              - img [ref=e637]
+              - generic [ref=e640]:
+                - paragraph [ref=e641]: Email Us
+                - paragraph [ref=e642]: Hello@techpillow.co
+            - link "India +918882508895" [ref=e643] [cursor=pointer]:
+              - /url: tel:+918882508895
+              - img [ref=e645]
+              - generic [ref=e647]:
+                - paragraph [ref=e648]: India
+                - paragraph [ref=e649]: "+918882508895"
+            - link "UK +447438782380" [ref=e650] [cursor=pointer]:
+              - /url: tel:+447438782380
+              - img [ref=e652]
+              - generic [ref=e654]:
+                - paragraph [ref=e655]: UK
+                - paragraph [ref=e656]: "+447438782380"
+            - generic [ref=e657]:
+              - img [ref=e659]
+              - generic [ref=e662]:
+                - paragraph [ref=e663]: Visit Us
+                - paragraph [ref=e664]: Gurugram, Haryana, India
+          - generic [ref=e666]:
+            - generic [ref=e667]:
+              - textbox "Your Name" [ref=e668]
+              - textbox "Email Address" [ref=e669]
+            - generic [ref=e670]:
+              - textbox "Phone Number" [ref=e671]
+              - textbox "Company Name" [ref=e672]
+            - textbox "Tell us about your project..." [ref=e673]
+            - button "Send Message" [ref=e674]
+  - contentinfo [ref=e675]:
+    - generic [ref=e676]:
+      - generic [ref=e677]:
+        - generic [ref=e678]:
+          - link "Tech Pillow" [ref=e679] [cursor=pointer]:
+            - /url: /
+            - text: Tech
+            - generic [ref=e680]: Pillow
+          - paragraph [ref=e682]: India's Trusted Tech Partner
+          - paragraph [ref=e683]: Transforming ideas into digital excellence. We help startups and enterprises build scalable digital products with speed and precision.
+        - generic [ref=e684]:
+          - heading "Quick Links" [level=3] [ref=e685]
+          - list [ref=e686]:
+            - listitem [ref=e687]:
+              - link "Home" [ref=e688] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e689]:
+              - link "Services" [ref=e690] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e691]:
+              - link "Industries" [ref=e692] [cursor=pointer]:
+                - /url: /industries
+            - listitem [ref=e693]:
+              - link "Case Studies" [ref=e694] [cursor=pointer]:
+                - /url: /case-studies
+            - listitem [ref=e695]:
+              - link "About" [ref=e696] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e697]:
+              - link "Blog" [ref=e698] [cursor=pointer]:
+                - /url: /blog
+        - generic [ref=e699]:
+          - heading "Services" [level=3] [ref=e700]
+          - list [ref=e701]:
+            - listitem [ref=e702]:
+              - link "Custom Software Development" [ref=e703] [cursor=pointer]:
+                - /url: /services/software-development
+            - listitem [ref=e704]:
+              - link "Mobile App Development" [ref=e705] [cursor=pointer]:
+                - /url: /services/mobile-app-development
+            - listitem [ref=e706]:
+              - link "Web Development" [ref=e707] [cursor=pointer]:
+                - /url: /services/web-development
+            - listitem [ref=e708]:
+              - link "AI & Machine Learning" [ref=e709] [cursor=pointer]:
+                - /url: /services/ai-ml
+            - listitem [ref=e710]:
+              - link "UI/UX Design" [ref=e711] [cursor=pointer]:
+                - /url: /services/ui-ux
+            - listitem [ref=e712]:
+              - link "Cloud & DevOps" [ref=e713] [cursor=pointer]:
+                - /url: /services/cloud-devops
+            - listitem [ref=e714]:
+              - link "IT Resources" [ref=e715] [cursor=pointer]:
+                - /url: /services/it-resources
+        - generic [ref=e716]:
+          - heading "Industries" [level=3] [ref=e717]
+          - list [ref=e718]:
+            - listitem [ref=e719]:
+              - link "Healthcare" [ref=e720] [cursor=pointer]:
+                - /url: /industries/healthcare
+            - listitem [ref=e721]:
+              - link "FinTech" [ref=e722] [cursor=pointer]:
+                - /url: /industries/fintech
+            - listitem [ref=e723]:
+              - link "E-commerce" [ref=e724] [cursor=pointer]:
+                - /url: /industries/ecommerce
+            - listitem [ref=e725]:
+              - link "Education" [ref=e726] [cursor=pointer]:
+                - /url: /industries/education
+            - listitem [ref=e727]:
+              - link "Logistics" [ref=e728] [cursor=pointer]:
+                - /url: /industries/logistics
+            - listitem [ref=e729]:
+              - link "Real Estate" [ref=e730] [cursor=pointer]:
+                - /url: /industries/real-estate
+            - listitem [ref=e731]:
+              - link "View all →" [ref=e732] [cursor=pointer]:
+                - /url: /industries
+        - generic [ref=e733]:
+          - heading "Contact" [level=3] [ref=e734]
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - link "Hello@techpillow.co" [ref=e737] [cursor=pointer]:
+                - /url: mailto:Hello@techpillow.co
+                - img [ref=e738]
+                - text: Hello@techpillow.co
+            - listitem [ref=e741]:
+              - link "India +918882508895" [ref=e742] [cursor=pointer]:
+                - /url: tel:+918882508895
+                - img [ref=e743]
+                - generic [ref=e745]:
+                  - generic [ref=e746]: India
+                  - text: "+918882508895"
+            - listitem [ref=e747]:
+              - link "UK +447438782380" [ref=e748] [cursor=pointer]:
+                - /url: tel:+447438782380
+                - img [ref=e749]
+                - generic [ref=e751]:
+                  - generic [ref=e752]: UK
+                  - text: "+447438782380"
+            - listitem [ref=e753]:
+              - generic [ref=e754]:
+                - img [ref=e755]
+                - text: Gurugram, Haryana, India
+      - generic [ref=e758]:
+        - generic [ref=e759]:
+          - link "Facebook" [ref=e760] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Beingbitsmart/100092683096270/
+            - img [ref=e761]
+          - link "Instagram" [ref=e763] [cursor=pointer]:
+            - /url: https://www.instagram.com/beingbitsmart/
+            - img [ref=e764]
+          - link "LinkedIn" [ref=e767] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/bitsmart-it-solutions/mycompany/
+            - img [ref=e768]
+          - link "WhatsApp" [ref=e772] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send/?phone=917303205571
+            - img [ref=e773]
+        - paragraph [ref=e775]: © 2026 TechPillow. All Rights Reserved.
+        - generic [ref=e776]:
+          - link "Privacy Policy" [ref=e777] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e778] [cursor=pointer]:
+            - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e784] [cursor=pointer]:
+    - img [ref=e785]
