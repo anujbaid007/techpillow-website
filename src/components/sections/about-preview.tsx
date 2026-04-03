@@ -69,10 +69,10 @@ export default function AboutPreview() {
                       <Icon className="w-5 h-5 text-[#FF3E00]" strokeWidth={1.8} />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground text-sm leading-tight">
+                      <p className="font-semibold text-foreground text-base leading-tight">
                         {title}
                       </p>
-                      <p className="text-muted-foreground text-[13px] mt-1 leading-snug">
+                      <p className="text-muted-foreground text-sm mt-1 leading-snug">
                         {description}
                       </p>
                     </div>
@@ -82,7 +82,7 @@ export default function AboutPreview() {
 
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 text-[#FF3E00] font-semibold text-sm mt-2 group"
+                className="inline-flex items-center gap-2 text-[#FF3E00] font-semibold text-base mt-2 group"
               >
                 Learn More About Us
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

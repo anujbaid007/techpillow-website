@@ -251,7 +251,7 @@ export default function ServicesGrid() {
                   >
                     <span
                       className={cn(
-                        "block text-sm font-bold font-heading tracking-tight",
+                        "block text-base font-bold font-heading tracking-tight",
                         activeIndex === i ? "text-white" : "text-foreground"
                       )}
                     >
@@ -259,7 +259,7 @@ export default function ServicesGrid() {
                     </span>
                     <span
                       className={cn(
-                        "block text-xs mt-0.5",
+                        "block text-sm mt-0.5",
                         activeIndex === i
                           ? "text-white/60"
                           : "text-muted-foreground"
@@ -308,7 +308,7 @@ export default function ServicesGrid() {
                       <h3 className="text-2xl font-bold font-heading">
                         {service.name}
                       </h3>
-                      <p className="text-muted-foreground text-sm mt-1">
+                      <p className="text-muted-foreground text-base mt-1">
                         {service.tagline}
                       </p>
                     </div>
@@ -337,7 +337,7 @@ export default function ServicesGrid() {
                           <div className="w-8 h-8 rounded-lg bg-[#FF3E00]/10 flex items-center justify-center flex-shrink-0">
                             <CapIcon className="w-4 h-4 text-[#FF3E00]" />
                           </div>
-                          <span className="text-sm font-semibold">
+                          <span className="text-base font-semibold">
                             {cap.title}
                           </span>
                         </div>
@@ -357,7 +357,7 @@ export default function ServicesGrid() {
                           <div className="w-9 h-9 rounded-lg bg-[#FF3E00]/10 flex items-center justify-center mx-auto mb-2">
                             <CapIcon className="w-4 h-4 text-[#FF3E00]" />
                           </div>
-                          <span className="text-xs font-medium leading-tight block">
+                          <span className="text-sm font-medium leading-tight block">
                             {cap.title}
                           </span>
                         </div>
@@ -386,7 +386,7 @@ export default function ServicesGrid() {
                       <div className="w-10 h-10 rounded-xl bg-[#FF3E00]/10 flex items-center justify-center flex-shrink-0">
                         <Icon className="w-5 h-5 text-[#FF3E00]" />
                       </div>
-                      <h3 className="font-bold font-heading text-base">
+                      <h3 className="font-bold font-heading text-lg">
                         {service.name}
                       </h3>
                     </div>
@@ -394,7 +394,7 @@ export default function ServicesGrid() {
                       <ArrowUpRight className="w-3.5 h-3.5" />
                     </div>
                   </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {service.shortDescription}
                   </p>
                 </div>

@@ -38,7 +38,7 @@ export function SectionHeading({
       {description && (
         <p
           className={cn(
-            "text-muted-foreground mt-4 max-w-2xl",
+            "text-muted-foreground mt-4 max-w-2xl text-base sm:text-lg",
             align === "center" && "text-center"
           )}
         >

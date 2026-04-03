@@ -137,13 +137,13 @@ export default function Hero() {
             >
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-[#FF3E00] text-white font-semibold text-sm hover:bg-[#e63600] transition-colors shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-[#FF3E00] text-white font-semibold text-base hover:bg-[#e63600] transition-colors shadow-lg shadow-orange-500/25"
               >
                 Book a Free Strategy Call
               </Link>
               <Link
                 href="/case-studies"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full border border-border text-foreground font-semibold text-sm hover:bg-white/80 backdrop-blur-sm transition-colors"
+                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full border border-border text-foreground font-semibold text-base hover:bg-white/80 backdrop-blur-sm transition-colors"
               >
                 Explore Our Work
               </Link>

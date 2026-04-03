@@ -8,7 +8,7 @@ export const company = {
   address: "Gurugram, Haryana, India",
   social: {
     facebook: "https://www.facebook.com/people/Beingbitsmart/100092683096270/",
-    whatsapp: "https://api.whatsapp.com/send/?phone=917303205571",
+    whatsapp: "https://wa.me/919601443663",
     instagram: "https://www.instagram.com/beingbitsmart/",
     linkedin: "https://www.linkedin.com/company/bitsmart-it-solutions/mycompany/",
   },

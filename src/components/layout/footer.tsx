@@ -60,10 +60,10 @@ export default function Footer() {
               Tech<span className="text-[#FF3E00]">Pillow</span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#FF3E00] mb-2.5 ml-0.5" />
             </Link>
-            <p className="text-sm text-gray-400 leading-relaxed max-w-[220px]">
+            <p className="text-base text-gray-400 leading-relaxed max-w-[220px]">
               {company.tagline}
             </p>
-            <p className="text-xs text-gray-500 leading-relaxed max-w-[220px]">
+            <p className="text-sm text-gray-500 leading-relaxed max-w-[220px]">
               {company.description}
             </p>
           </div>

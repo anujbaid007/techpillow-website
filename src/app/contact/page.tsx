@@ -122,7 +122,7 @@ export default function ContactPage() {
                   Send us a message
                 </h2>
                 <p className="text-sm text-muted-foreground mb-6">
-                  Fill out the form and our team will get back to you promptly.
+                  Fill out the form and we'll open WhatsApp with your details pre-filled. We reply within a few hours.
                 </p>
                 <ContactForm />
               </div>

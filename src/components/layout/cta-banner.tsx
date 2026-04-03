@@ -55,7 +55,7 @@ export default function CTABanner({
           <Link
             href={ctaHref}
             className={cn(
-              "inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-sm transition-all",
+              "inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-base transition-all",
               isDark
                 ? "bg-[#FF3E00] text-white hover:bg-[#e63600] shadow-lg shadow-orange-500/25"
                 : "bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#FF3E00]"

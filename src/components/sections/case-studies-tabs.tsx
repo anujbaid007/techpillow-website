@@ -96,7 +96,7 @@ export default function CaseStudiesTabs() {
                     <h3 className="text-lg font-bold font-heading mb-2">
                       {cs.name}
                     </h3>
-                    <p className="text-sm text-muted-foreground mb-4 line-clamp-3">
+                    <p className="text-base text-muted-foreground mb-4 line-clamp-3">
                       {cs.description}
                     </p>
 
@@ -107,7 +107,7 @@ export default function CaseStudiesTabs() {
                           <div className="text-xl font-bold font-heading text-[#FF3E00]">
                             {metric.value}
                           </div>
-                          <div className="text-xs text-muted-foreground">
+                          <div className="text-sm text-muted-foreground">
                             {metric.label}
                           </div>
                         </div>
@@ -116,7 +116,7 @@ export default function CaseStudiesTabs() {
 
                     <Link
                       href={`/case-studies/${cs.slug}`}
-                      className="mt-auto inline-flex items-center gap-1.5 text-[#FF3E00] font-semibold text-sm hover:gap-3 transition-all"
+                      className="mt-auto inline-flex items-center gap-1.5 text-[#FF3E00] font-semibold text-base hover:gap-3 transition-all"
                     >
                       View Case Study
                       <ArrowRight className="w-4 h-4" />

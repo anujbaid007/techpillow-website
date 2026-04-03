@@ -69,7 +69,7 @@ function WhiteCounter({ value, suffix = "", label, index }: WhiteCounterProps) {
         </div>
 
         {/* Label */}
-        <p className="text-sm text-white/60 font-medium tracking-wide uppercase">
+        <p className="text-base text-white/60 font-medium tracking-wide uppercase">
           {label}
         </p>
       </div>
