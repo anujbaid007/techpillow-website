@@ -4,7 +4,7 @@ export const company = {
   description:
     "Transforming ideas into digital excellence. We help startups and enterprises build scalable digital products with speed and precision.",
   email: "Hello@techpillow.co",
-  phones: { india: "+918882508895", uk: "+447438782380" },
+  phones: { india: "+919601443663", uk: "+447438782380" },
   address: "Gurugram, Haryana, India",
   social: {
     facebook: "https://www.facebook.com/people/Beingbitsmart/100092683096270/",
